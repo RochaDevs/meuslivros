@@ -42,3 +42,20 @@ values
 index
 values
 familiar NumPy array:
+
+From what we’ve seen so far, the
+object may appear to be basically inter
+Series
+changeable
+with a one-dimensional NumPy array. The essential difference is that
+while the NumPy array has an implicitly defined integer index used to access the val
+ues,
+the Pandas
+has an explicitly defined index associated with the values.
+Series
+
+This explicit index definition gives the
+object additional capabilities. For
+Series
+example, the index need not be an integer, but can consist of values of any desired
+type. So, if we wish, we can use strings as an index:
